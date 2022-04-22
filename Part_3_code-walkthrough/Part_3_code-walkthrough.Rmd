@@ -389,6 +389,10 @@ First, we call `NPAModels::preprocessNetworks()`. It takes
 a minute or two to finish.
 
 ```{r preprocess_model,eval=FALSE}
+
+library(NPAModels) # NEed to load the lib again.
+
+
 # preprocess the network model
 NPAModels::preprocessNetworks() # Only need to do it once
 ```
